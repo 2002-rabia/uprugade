@@ -1,0 +1,174 @@
+body { background-color:rgb(255, 255, 255) 
+}
+
+
+h1 {color: rgb(242, 19, 153); font-size: 'large' ; font-family: 'Fantasy' ,'Papyrus'; padding-top: 20px; }
+h2 {color: rgb(17, 16, 17); font-size:'30px' ; font-family: 'Fantasymonospace' , 'Lucida Console'}  
+li {font-size:'30' ; }
+p {font-size: 'large'; font-weight: bold; font-style: italic;}
+
+
+ul { list-style-type:disc;
+line-height: 25px; }
+ol { list-style-type:ellipsis; 
+line-height: 25px;}
+
+table, th, td {
+  border:2px solid black;
+}
+table {
+    border-collapse: collapse;
+  }
+  td, th {
+    
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #c85d5d;
+  }
+  a {
+    color:rebeccapurple ;
+  }
+  a:hover {
+    color: rgb(2, 85, 22);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .örnek{
+    width: 800px;
+    
+    }
+  div.cook {
+    display: flex;
+    
+    padding:0 10px 10px 0;
+    border: 1px solid #ccc;
+    float: left;
+  
+    width: 20%;
+    height: 450%;
+
+    
+    
+  }
+  
+  div.cook:hover {
+    
+    display: flex;
+    border: 1px solid #777;
+    flex-direction: column;
+  }
+  
+  div.cook img {
+    
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  
+  div.sugar {
+   
+    padding: 15px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+
+div.gallery  {
+  color: rgb(242, 19, 153); font-size: 'large' ; font-family: 'Fantasy' ,'Papyrus';
+  margin: auto;
+  border: 5px solid #ccc;
+  border-bottom-style:800px ;
+  float: center;
+  width: 20%;
+  height: 70px;
+  }
+  
+  div.input{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:#c85d5d;
+margin-right: 0%;
+margin-left: 20vmin;
+margin-top: 5%;
+border-color: antiquewhite;
+border-style: inset;
+float: right;
+padding-top: 50px;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 50px;
+
+  }
+  div.input img{
+    width: 100%;
+    height: auto;
+  }
+
+div.input-in{
+  color: #c85d5d  ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: right;
+  margin-top: 2%;
+  margin-right: 4%;
+  border-style: inset;
+  border-color:antiquewhite;
+  padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+}
+input[type=submit]{
+background-color: #c85d5d;
+
+
+}
+div.ana{
+  line-height: 40px;
+  border: #ccc;
+background-color: #c85d5d;
+
+padding-left: 15px;
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+text-align: center;
+
+  font-size: 16px;
+  text-decoration: double;
+  
+  cursor: pointer;
+}
+button{
+margin-inline-start:100px;
+text-decoration: double;
+  padding-left: 15px;
+padding-top: 20px;
+padding-right: 15px;
+padding-bottom: 15px;
+line-height: 1cm;
+font-family: 'Fantasymonospace' , 'Lucida Console'
+}
+
+.button1
+{text-decoration: double;
+  font-size: 'large' ; font-family: 'Fantasymonospace' , 'Lucida Console'; padding-top: 20px;
+
+}
+.button2{
+
+text-decoration: double;
+font-size: 'large' ; font-family: 'Fantasymonospace' , 'Lucida Console'; padding-top: 20px;
+}
+.button3{
+  text-decoration: double;
+font-size: 'large' ; font-family: 'Fantasymonospace' , 'Lucida Console'; padding-top: 20px;
+}
+.button4{
+  text-decoration: double;
+font-size: 'large' ;font-family: 'Fantasymonospace' , 'Lucida Console' ; padding-top: 20px;
+}
